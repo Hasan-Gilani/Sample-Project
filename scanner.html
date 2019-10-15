@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><script type="text/javascript" async="" src="scanner_files/analytics.js"></script><script type="text/javascript" async="" src="scanner_files/ec.js"></script><script src="scanner_files/538284599658414" async=""></script><script async="" src="scanner_files/fbevents.js"></script><script src="scanner_files/osd.js"></script><script src="scanner_files/all.js" async="" crossorigin="anonymous"></script><script src="scanner_files/show_ads_impl.js" id="google_shimpl"></script><script type="text/javascript" async="" src="scanner_files/js.js"></script><script type="text/javascript" async="" src="scanner_files/analytics.js"></script><script async="" src="scanner_files/gtm.js"></script><script type="text/javascript" charset="utf-8" id="zm-extension" src="scanner_files/webrtc-patch.js" async=""></script><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          <link rel="canonical" href="scanner_files/scan_003.html">
+          <title>QR Code attendance system</title>
+
+    <script>
+      var dataLayer = dataLayer || [];
+      dataLayer.push({ 'existingClient': false });</script>
+
+        <link rel="stylesheet" type="text/css" href="scanner_files/all-b13caf4ec3.css">
+
+    <script>qrstuffAppData=null;</script>
+    <script>document.docReady=function(f) { if(document.readyState === 'complete') f(); else document.addEventListener('DOMContentLoaded', f); }</script>
+
+      <script src="scanner_files/all-b4cee2fbf0.js" defer="defer"></script>
+
+  <meta name="viewport" content="width=1366" id="meta-viewport">
+  <script>document.docReady(function () {
+    var setViewport=function() { document.getElementById('meta-viewport').setAttribute('content', 'width='+Math.max(screen.width,700)); }
+    window.addEventListener("orientationchange",setViewport);
+    window.addEventListener("resize", _.debounce(setViewport, 200));
+    setViewport();
+  })</script>
+
+<style>.site-header, .constrain, .content-width { min-width: 700px; max-width: 950px; }</style>
+
+
+  <script type="text/javascript" src="scanner_files/instascan.js"></script>
+
+  <script src="scanner_files/scan-d83e092ab6.js"></script><link rel="preload" href="scanner_files/integrator.js" as="script"><script type="text/javascript" src="scanner_files/integrator.js"></script><link rel="preload" href="scanner_files/integrator_002.js" as="script"><script type="text/javascript" src="scanner_files/integrator_002.js"></script>
+  <link href="scanner_files/css.css" rel="stylesheet">
+</head>
+
+<body class="">
+
+  <div class="constrain constrain-scan top">
+
+    <div class="qrcodescan">
+      <div class="preview-wrap" style="display: none;">
+        <video playsinline="" autoplay="true" class="inactive" style="transform: scaleX(-1);" src=""></video>
+      </div>
+      <div class="result">
+      </div>
+
+
+      <script class="result-template" type="x-tmpl-mustache">
+
+          <div>
+            <h2>Scan Result</h2>
+            <div class="result-content{{#scan.displayMultiline}} multiline{{/scan.displayMultiline}}">
+              {{#scan.isLink}}{{scan.linkIntro}} <a href="{{scan.link}}" target="_blank">{{&scan.html}}</a>{{/scan.isLink}}
+              {{^scan.isLink}}{{&scan.html}}{{/scan.isLink}}
+            </div>
+            <form class="ng"><button class="scan-button button">Scan Another QR Code</button></form>
+          </div>
+      </script>
+    </div>
+
+  <footer class="site-footer content-width" style="margin: auto; height: auto !important;">
